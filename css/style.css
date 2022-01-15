@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap');
 
 body {
+    width: 1200px;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -30,8 +31,8 @@ navigation part
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    padding-left: 8%;
-    padding-right: 8%;
+    padding-left: 4%;
+    padding-right: 4%;
 }
 
 .navbar-right-side ul {
@@ -133,3 +134,12 @@ main {
     padding: 0px 20px;
 }
 
+.center-section-heading {
+    text-align: center;
+}
+
+.collections {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+}
