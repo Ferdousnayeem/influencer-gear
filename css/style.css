@@ -268,8 +268,9 @@ input {
 /* mobile devices */
 
 @media only screen and (max-width:688px) {
-    .intro-left-side, .intro-right-side{
-        width: 100%;
+    .header-part {
+        flex-direction: column;
+        align-items: center;
     }
     .company-logo, .extra-inner, .extra-part-left {
         display: flex;
@@ -289,14 +290,21 @@ input {
 
 /* tablet devices */
 
-/* @media only screen and (min-width: 688px) and (max-width:992px) {
-    .container{
-        width: 100%;
+@media only screen and (min-width: 688px) and (max-width:992px) {
+    .header-part {
+        flex-direction: column;
     }
-    .players, .courses{
-        grid-template-columns: repeat(2, 1fr);
+    .company-logo, .extra-inner, .extra-part-left {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
     }
-    .blogs{
-        grid-template-columns: repeat(1, 1fr);
+    .company-logo img {
+        width: 50%;
+        padding: 10px;
     }
-} */ 
+    .collections {
+        grid-template-columns: 1fr 1fr;
+    }
+} 
