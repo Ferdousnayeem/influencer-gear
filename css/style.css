@@ -196,6 +196,7 @@ main {
 
 .extra-part {
     margin-top: 20px;
+    text-align: center;
 }
 
 .extra-part-left {
@@ -247,7 +248,7 @@ input {
     padding-top: 20px;
     margin-top: 10px;
     padding-bottom: 10px;
-} 
+}
 
 .footer>p>a {
     text-decoration: none;
@@ -287,4 +288,3 @@ input {
         grid-template-columns: repeat(1, 1fr);
     }
 } */ 
-
