@@ -66,6 +66,9 @@ navigation part
 /* =============
    header part 
 ===============*/
+main {
+    width: 1200px;
+}
 
 .header-part {
     display: flex;
