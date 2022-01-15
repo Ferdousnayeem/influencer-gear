@@ -35,8 +35,6 @@ navigation part
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    /* padding-left: 2%;
-    padding-right: 2%; */
 }
 
 .navbar-right-side ul {
