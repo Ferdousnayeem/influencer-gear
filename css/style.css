@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap');
 
 body {
-    width: 1200px;
     font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h1 {
@@ -263,8 +265,8 @@ input {
 
 /* mobile devices */
 
-/* @media only screen and (max-width:688px) {
-    .container{
+@media only screen and (max-width:688px) {
+    .intro-left-side, .intro-right-side{
         width: 100%;
     }
     .players, .blogs, .courses{
