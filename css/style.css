@@ -30,12 +30,13 @@ navigation part
 ===============*/
 
 .navbar {
+    width: 90vw;
     height: 120px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    padding-left: 4%;
-    padding-right: 4%;
+    /* padding-left: 2%;
+    padding-right: 2%; */
 }
 
 .navbar-right-side ul {
@@ -56,7 +57,7 @@ navigation part
     text-decoration: none;
     font-size: 16px;
     color: #000000;
-    margin-left: 34px;
+    margin-left: 14px;
     padding: 4px;
 }
 
@@ -70,9 +71,6 @@ navigation part
 /* =============
    header part 
 ===============*/
-main {
-    width: 1200px;
-}
 
 .header-part {
     display: flex;
@@ -201,6 +199,10 @@ main {
     text-align: center;
 }
 
+.extra-part>h2 {
+    padding: 35px;
+}
+
 .extra-part-left {
     width: 50%;
 }
@@ -269,12 +271,20 @@ input {
     .intro-left-side, .intro-right-side{
         width: 100%;
     }
-    .players, .blogs, .courses{
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .player, .blog{
+    .company-logo, .extra-inner, .extra-part-left {
+        display: flex;
+        justify-content: center;
         flex-direction: column;
+        align-items: center;
     }
+    .company-logo img {
+        width: 50%;
+        padding: 10px;
+    }
+    .collections {
+        grid-template-columns: 1fr;
+    }
+
 }
 
 /* tablet devices */
